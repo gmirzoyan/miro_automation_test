@@ -1,0 +1,35 @@
+{
+  "signIn": {
+    "emailIF": "#email",
+    "passwordIF": "#password",
+    "signInButton": "//button[@class='signup__submit']",
+    "createBoardPage": "//div[contains(text(), 'Create')]"
+  },
+  "createNewBoard": {
+    "boardModal": "//div[@class='md-content']",
+    "closeTopBanner": "//button[@class='rtb-btn rtb-btn--flat notification__close']",
+    "newBoardLink": "//div[@data-auto-test-id='dashboardTemplatesPanel__createNewBoard']",
+    "newBoardModal": "#react-modals-container",
+    "editBoardLink": "//div[@class='board-top-left-panel__title board-top-left-panel__title--editable']",
+    "editInput": "//input[@class='board-info-title rtb-input rtb-input--light ng-pristine ng-valid ng-not-empty ng-touched']",
+    "newTitle": "//div[@class='board-top-left-panel__title board-top-left-panel__title--editable']"
+  },
+  "createSticker": {
+    "stickerLink": "//div[@class='toolbar__item toolbar__item--customized AT__toolbar--STICKERS toolbar__item--stickers']",
+    "canvasLink": "//canvas[@class='retinaSupport']"
+  },
+  "shareBoard": {
+    "shareLink": "//div[@class='board-top-share-button']//button[@id='share-board-button']",
+    "emailDiv": "//div[@class='rtb-scroll-wrapper rtb-scroll-wrapper--y-scroll']",
+    "checkboxUser2": "//div//label[@class='rtb-checkbox']",
+    "chooseButton": "#inviteFromTeamMdButtonChoose",
+    "invitationBtn": "//button[@class='rtb-btn rtb-btn--primary rtb-btn--medium']",
+    "doneBtn": "//button[@class='rtb-btn rtb-btn--primary rtb-btn--small']"
+  },
+  "user2": {
+    "board": "//span[contains(text(), 'Bo')]",
+    "historyIcon": "//div[@class='svg-button bottom-bar__plugin-button--ACTIVITY_LIST AT__bottom-bar--ACTIVITY_LIST']",
+    "historyNote": "//span[@class='activity-list__action']"
+
+  }
+}
